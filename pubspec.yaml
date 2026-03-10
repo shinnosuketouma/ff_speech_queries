@@ -1,0 +1,11 @@
+name: ff_speech_queries
+description: A dummy package to inject Android queries.
+version: 1.0.0
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.ff_speech_queries
+        pluginClass: FfSpeechQueriesPlugin
